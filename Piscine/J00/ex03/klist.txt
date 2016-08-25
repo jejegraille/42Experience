@@ -1,0 +1,5 @@
+Credentials cache: API:20264
+        Principal: jgraille@42.FR
+
+  Issued                Expires               Principal
+Aug  3 18:38:59 2016  Aug 10 18:38:52 2016  krbtgt/42.FR@42.FR
