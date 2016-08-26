@@ -6,7 +6,7 @@
 /*   By: jgraille <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/24 10:48:36 by jgraille          #+#    #+#             */
-/*   Updated: 2016/08/25 12:52:57 by jgraille         ###   ########.fr       */
+/*   Updated: 2016/08/26 03:50:42 by jgraille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_list_sort(t_list **begin_list, int (*cmp)())
 
 	first = *begin_list;
 	second = first ? first->next : NULL;
-	if (first && (*cmp)(first->data, second->data) > 0)
+	if (second && (*cmp)(first->data, second->data) > 0)
 	{
 		first->next = second->next;
 		second->next = first;
