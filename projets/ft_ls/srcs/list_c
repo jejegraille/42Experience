@@ -1,0 +1,13 @@
+check_val.c
+del.c
+file_tab.c
+fl_gestion.c
+ft_ls.c
+ls_analys.c
+ls_filed.c
+ls_init.c
+ls_mod.c
+main.c
+print_file.c
+print_info.c
+sort_table.c

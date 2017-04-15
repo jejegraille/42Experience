@@ -1,0 +1,13 @@
+gsh_addpath.c
+gsh_cd.c
+gsh_conv_arg.c
+gsh_echo.c
+gsh_env.c
+gsh_error.c
+gsh_exec.c
+gsh_fonct.c
+gsh_path.c
+gsh_read.c
+gsh_setenv.c
+gsh_unsetenv.c
+main.c

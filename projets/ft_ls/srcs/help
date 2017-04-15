@@ -1,0 +1,81 @@
+
+  [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[]                                                        []
+[]      [][][] [][][][][]            []       [][][]      []
+[]      []         []                []      []           []
+[]      [][]       []                []      [][][]       []
+[]      []         []                []           []      []
+[]      []         []    [][][][][]  [][][]  [][][]       []
+[]                                                        []
+  [][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+___________________________________________________________
+
+DESCRIPTION :
+
+          ft_ls write ordered files list
+          to standar output.
+
+USAGE :
+
+./ft_ls [-help] [-RPGCalrtodseimc-] [files ...]
+
+OPTIONS :
+
+-help      show this informations page.
+-l         add more informations about listed files.
+-a         add hidden files to list.
+--         remove '.' and '..' files from list.
+-r         revers the ordered files list.
+-d         add '/' to directorys file name.
+-e         add '*' to executables file name.
+-f         add '|' to fifos file name.
+-s         add 's' to sockets file name.
+
+-t         ordered file list by last modification time.
+-tt        ordered file list by last access time.
+-ttt       ordered file list by last changed status time.
+
+-R         shearch recursively in subdirectory.
+-P         print only path from list.
+-C         write count of total files listed at end.
+-G         color YELLOW for fifo, CYAN for link
+           GREEN for executable, BLUE for directory 
+           RED for archive (.tar, .zip, .deb, .rpm),
+           MAGENTA for socket and media (.jpg, .png,
+           .gif, .tiff, .mp3, .ogg, .wav)
+
+
+
+    You can multiply the options file type to list only
+    these files.
+
+-cc         list only *.c files.
+-oo         list only *.o files.
+-aa         list only hidden files.
+-dd         list only directory files.
+-ee 	    list only executable files.
+-ss 	    list only socket files.
+-ff         list only fifo files.
+-mm         list only audio files.
+-ii         list only image files.
+
+
+EXEMPLES :
+
+./ft_ls            to list files from current directory.
+
+./ft_ls -ccRP      to list all path from *.c files.
+
+./ft_ls -R dir     to list all files recursively from 'dir'
+                   directory.
+
+./ft_ls --a        list hidden files without the files '.'
+                   and '..'.
+
+./ft_ls -aadd-R    to list only directorys and hidden files 
+                   without the files '.' and '..' recursively
+                   from current directory.
+
+./ft_ls -leet      order by modification time only, list
+                   executables files with more information.
+
