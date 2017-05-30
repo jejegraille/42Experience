@@ -1,0 +1,13 @@
+change_view.c
+fract_loop.c
+fractales.c
+get_next_theme.c
+get_par.c
+graph.c
+main.c
+mx_loop.c
+next_view.c
+paint.c
+paste_thread.c
+update.c
+usage.c
